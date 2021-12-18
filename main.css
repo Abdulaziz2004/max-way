@@ -286,4 +286,192 @@ header .container .right .big-burder img {
   -webkit-transform: translate();
           transform: translate();
 }
+
+.main {
+  padding: 0 128px 0 128px;
+  margin-top: 79px;
+}
+
+.main .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 39px;
+}
+
+.main .menu .menu-togle:nth-child(1) {
+  width: 134px;
+  height: 54px;
+  background: #f1b301;
+  border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .menu .menu-togle:nth-child(1) a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.main .menu .menu-togle a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222124;
+}
+
+.main .menu button {
+  width: 160px;
+  height: 54px;
+  background: #f5f5f5;
+  border-radius: 27px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222124;
+  gap: 17px;
+}
+
+.main .pitsa .title {
+  margin-top: 105px;
+}
+
+.main .pitsa .title h1 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  color: #222124;
+}
+
+.main .pitsa .gavayi-pitsa {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.main .pitsa .gavayi-pitsa .card {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid rgba(151, 151, 151, 0.181927);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  gap: 40px;
+  position: relative;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title .cheese {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title .cheese h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222124;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #22212489;
+  margin-top: 10px;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title .plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 13px;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title .plus h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222124;
+}
+
+.main .pitsa .gavayi-pitsa .card .gavaiy-title .plus .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f1b301;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.main .pitsa .gavayi-pitsa .card .firee {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.249235);
+  -webkit-box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+          box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+  -webkit-backdrop-filter: blur(8.15485px);
+          backdrop-filter: blur(8.15485px);
+  border-radius: 25px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */

@@ -93,9 +93,7 @@ header {
             padding: 20px 0 0 20px;
 
             .struktura {
-              display: flex;
-              align-items: center;
-              justify-content: center;
+              @include center();
               gap: 11px;
               background: rgba(255, 255, 255, 0.203344);
               border-radius: 19px;
@@ -135,9 +133,7 @@ header {
             padding: 20px 0 0 20px;
 
             .struktura {
-              display: flex;
-              align-items: center;
-              justify-content: center;
+              @include center();
               gap: 11px;
               background: rgba(255, 255, 255, 0.203344);
               border-radius: 19px;
@@ -236,4 +232,134 @@ header {
   }
 }
 
-// End navbar styling 
+// End navbar styling
+// Start main styling
+
+.main {
+  padding: 0 128px 0 128px;
+  margin-top: 79px;
+
+  .menu {
+    @include space-between();
+    margin-top: 39px;
+    .menu-togle:nth-child(1) {
+      width: 134px;
+      height: 54px;
+      background: #f1b301;
+      border-radius: 27px;
+      @include center();
+
+      a {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 20px;
+        color: #ffffff;
+      }
+    }
+    .menu-togle {
+      a {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222124;
+      }
+    }
+
+    button {
+      width: 160px;
+      height: 54px;
+      background: #f5f5f5;
+      border-radius: 27px;
+      border: none;
+      @include center();
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: $poragrif-color;
+      gap: 17px;
+    }
+  }
+
+  .pitsa {
+    .title {
+      margin-top: 105px;
+      h1 {
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 63px;
+        color: $poragrif-color;
+      }
+    }
+
+    .gavayi-pitsa {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-top: 30px;
+      .card {
+        padding: 30px;
+        display: flex;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        box-sizing: border-box;
+        border-radius: 12px;
+        gap: 40px;
+        position: relative;
+
+        .gavaiy-title {
+          .cheese {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            h3 {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 29px;
+              color: $poragrif-color;
+            }
+          }
+
+          p {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #22212489;
+            margin-top: 10px;
+          }
+          .plus {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 13px;
+            h2 {
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 29px;
+              color: $poragrif-color;
+            }
+            .circle {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              background: #f1b301;
+              @include center();
+              color: #fff;
+              font-size: 25px;
+            }
+          }
+        }
+
+        .firee {
+          width: 50px;
+          height: 50px;
+          background: rgba(255, 255, 255, 0.249235);
+          box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+          backdrop-filter: blur(8.15485px);
+          border-radius: 25px;
+          position: absolute;
+          @include center();  
+        }
+      }
+    }
+  }
+}
