@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap");
+
+// variables
+$poragrif-color: #222124;
+
+// mixin
+@mixin space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+// start styling header
+
+header {
+  width: 100%;
+  height: 100vh;
+  .container {
+    display: flex;
+    .left {
+      width: 60%;
+      padding: 23px 40px 0 128px;
+
+      .navbar {
+        .navigation {
+          @include space-between;
+
+          ul {
+            display: flex;
+            gap: 40px;
+
+            a {
+              text-decoration: none;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: $poragrif-color;
+            }
+          }
+        }
+      }
+
+      .nav-title {
+        margin-top: 123px;
+        padding: 0 100px 0 0;
+        .text {
+          h1 {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 80px;
+            line-height: 85px;
+            color: $poragrif-color;
+          }
+          p {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: $poragrif-color;
+            margin-top: 14px;
+          }
+        }
+
+        .card {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+          margin-top: 66px;
+
+          .card-flex:nth-child(1) {
+            background: linear-gradient(
+              315.49deg,
+              #ffc85c 1.32%,
+              #f1b301 96.68%
+            );
+            border-radius: 12px;
+            padding: 20px 0 0 20px;
+
+            .struktura {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 11px;
+              background: rgba(255, 255, 255, 0.203344);
+              border-radius: 19px;
+              width: 119px;
+              height: 40px;
+
+              p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ffffff;
+              }
+            }
+
+            .struktura-2 {
+              @include space-between();
+
+              h2 {
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 32px;
+                text-transform: uppercase;
+                color: #e76a06;
+              }
+              .pitsa-mini {
+                display: flex;
+                img {
+                  border-radius: 12px;
+                }
+              }
+            }
+          }
+          .card-flex:nth-child(2) {
+            background: #800a7a;
+            border-radius: 12px;
+            padding: 20px 0 0 20px;
+
+            .struktura {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 11px;
+              background: rgba(255, 255, 255, 0.203344);
+              border-radius: 19px;
+              width: 174px;
+              height: 40px;
+
+              p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #ffffff;
+              }
+            }
+
+            .struktura-2 {
+              @include space-between();
+              h2 {
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 32px;
+                text-transform: uppercase;
+                color: #fc96f7;
+              }
+              .pitsa-mini {
+                display: flex;
+                img {
+                  border-radius: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 40%;
+      // height: 300px;
+      background: #800a7a;
+      padding: 28px 128px 0 40px;
+      position: relative;
+
+      .right-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .right-title:nth-child(1) {
+          display: flex;
+          align-items: center;
+          gap: 19px;
+          p {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            color: #ffffff;
+            span {
+              font-weight: bold;
+              font-size: 24px;
+            }
+          }
+        }
+        .right-title:nth-child(3) {
+          display: flex;
+          align-items: center;
+          gap: 19px;
+          position: relative;
+          p {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 20px;
+            color: #ffffff;
+            span {
+              font-size: 12px;
+              font-weight: normal;
+            }
+          }
+
+          .position-svg-nav {
+            position: absolute;
+            left: 12px;
+            top: 0;
+          }
+        }
+      }
+
+      .big-burder {
+        margin-top: 68px;
+        img {
+          position: absolute;
+          right: 0;
+          transform: translate();
+        }
+      }
+    }
+  }
+}
+
+// End navbar styling 

@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .left {
+  width: 60%;
+  padding: 23px 40px 0 128px;
+}
+
+header .container .left .navbar .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .left .navbar .navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+header .container .left .navbar .navigation ul a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222124;
+}
+
+header .container .left .nav-title {
+  margin-top: 123px;
+  padding: 0 100px 0 0;
+}
+
+header .container .left .nav-title .text h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 85px;
+  color: #222124;
+}
+
+header .container .left .nav-title .text p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #222124;
+  margin-top: 14px;
+}
+
+header .container .left .nav-title .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 66px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) {
+  background: linear-gradient(315.49deg, #ffc85c 1.32%, #f1b301 96.68%);
+  border-radius: 12px;
+  padding: 20px 0 0 20px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 11px;
+  background: rgba(255, 255, 255, 0.203344);
+  border-radius: 19px;
+  width: 119px;
+  height: 40px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura-2 h2 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #e76a06;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura-2 .pitsa-mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(1) .struktura-2 .pitsa-mini img {
+  border-radius: 12px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) {
+  background: #800a7a;
+  border-radius: 12px;
+  padding: 20px 0 0 20px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 11px;
+  background: rgba(255, 255, 255, 0.203344);
+  border-radius: 19px;
+  width: 174px;
+  height: 40px;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura-2 h2 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #fc96f7;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura-2 .pitsa-mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .left .nav-title .card .card-flex:nth-child(2) .struktura-2 .pitsa-mini img {
+  border-radius: 12px;
+}
+
+header .container .right {
+  width: 40%;
+  background: #800a7a;
+  padding: 28px 128px 0 40px;
+  position: relative;
+}
+
+header .container .right .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .right .right-nav .right-title:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 19px;
+}
+
+header .container .right .right-nav .right-title:nth-child(1) p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+header .container .right .right-nav .right-title:nth-child(1) p span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+header .container .right .right-nav .right-title:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 19px;
+  position: relative;
+}
+
+header .container .right .right-nav .right-title:nth-child(3) p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+header .container .right .right-nav .right-title:nth-child(3) p span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+header .container .right .right-nav .right-title:nth-child(3) .position-svg-nav {
+  position: absolute;
+  left: 12px;
+  top: 0;
+}
+
+header .container .right .big-burder {
+  margin-top: 68px;
+}
+
+header .container .right .big-burder img {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate();
+          transform: translate();
+}
+/*# sourceMappingURL=main.css.map */
