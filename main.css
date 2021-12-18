@@ -4,10 +4,10 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
 }
 
@@ -473,5 +473,116 @@ header .container .right .big-burder img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.brand {
+  background: #800a7a;
+  margin-top: 173px;
+}
+
+.brand .brend-title {
+  padding: 75px 128px 80px 128px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand .brend-title .brend-flex {
+  margin: auto;
+  position: relative;
+}
+
+.brand .brend-title .brend-flex h1 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 63px;
+  color: #ffffff;
+}
+
+.brand .brend-title .brend-flex .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 63px;
+}
+
+.brand .brend-title .brend-flex .btn button {
+  width: 250px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.292941);
+  background-color: transparent;
+  border-radius: 46px;
+}
+
+.brand .brend-title .brend-flex .phone img {
+  width: 350px;
+}
+
+footer {
+  padding: 0 128px 26px 128px;
+}
+
+footer .footer-grid {
+  margin-top: 125px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  padding: 0 0 40px 0;
+}
+
+footer .footer-grid .grid-flex h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #003846;
+}
+
+footer .footer-grid .grid-flex ul {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-grid .grid-flex ul a {
+  text-decoration: none;
+  color: #222124;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer .max-way-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer .max-way-end p {
+  font-size: 14px;
+  color: #2221248b;
+}
+
+footer .max-way-end .logotips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28px;
 }
 /*# sourceMappingURL=main.css.map */
